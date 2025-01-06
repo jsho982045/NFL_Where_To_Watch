@@ -1,0 +1,142 @@
+.tab-button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: #4b5563;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    transition: all 0.2s;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.tab-button:hover {
+    background-color: #f3f4f6;
+}
+
+.tab-button.active {
+    background-color: #2563eb;
+    color: white;
+    border-color: #2563eb;
+}
+
+
+
+@media (min-width: 768px) {
+    .tab-button {
+        font-size: 1rem;
+        padding: 0.75rem 1.5rem;
+    }
+}
+
+
+.streaming-tag {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background-color: #dbeafe;
+    color: #1e40af;
+    font-size: 0.75rem;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    white-space: nowrap;
+}
+
+.streaming-tag:not(.bg-gray-100) {
+    background-color: #e0f2fe;
+    color: #0369a1;
+    font-weight: 500;
+}
+
+
+@media (min-width: 768px) {
+    .streaming-tag {
+        padding: 3px 8px;
+        font-size: 0.875rem;
+    }
+}
+
+.text-gray-400 {
+    color: #9ca3af;
+}
+
+.bg-gray-100.text-gray-600 {
+    background-color: #f3f4f6;
+    color: #4b5563;
+}
+
+.grid-cols-5 {
+    grid-template-columns: minmax(150px, 1fr) minmax(200px, 2fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(150px, 1fr);
+    min-width: 800px;
+}
+
+.grid-cols-5:not(:last-child) {
+    border-bottom: 1px solid #f3f4f6;
+}
+
+@media (max-width: 640px) {
+    .grid-cols-5 {
+        grid-template-columns: 1.2fr 1.8fr 0.8fr 0.8fr 1fr;
+        gap: 0.5rem;
+    }
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-button, .streaming-tag {
+    transition: all 0.2s ease-in-out;
+}
+
+.divide-y > * {
+    border-color: #e5e7eb;
+}
+
+.hover\:bg-gray-50:hover {
+    background-color: #f9fafb;
+    transition: background-color 0.2s ease-in-out;
+}
+
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-amber-600 {
+    color: #d97706;
+}
+
+.fixed-width-grid {
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) minmax(200px, 2fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(150px, 1fr);
+    min-width: 800px; /* Minimum width before horizontal scroll */
+}
+
+.container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
