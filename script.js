@@ -52,39 +52,39 @@ const playoffData = {
     
     divisional: [
         {
-            homeTeam: "TBD",
-            awayTeam: "TBD",
+            homeTeam: "Chiefs",
+            awayTeam: "Texans",
             date: "Saturday January 18",
             time: "4:30 PM",
-            tv: "TBD",
-            streams: ["TBD", "Fubo"] 
+            tv: "ABC/ESPN",
+            streams: ["Fubo", "ESPN+"] 
         },
 
         {
-            homeTeam: "TBD",
-            awayTeam: "TBD",
+            homeTeam: "Lions",
+            awayTeam: "Commanders",
             date: "Saturday January 18",
             time: "8:15 PM",
-            tv: "TBD",
-            streams: ["TBD", "Fubo"]
+            tv: "FOX",
+            streams: ["Fubo"]
         },
 
         {
-            homeTeam: "TBD",
-            awayTeam: "TBD",
+            homeTeam: "Eagles",
+            awayTeam: "Rams",
             date: "Sunday January 19",
             time: "3:00 PM",
-            tv: "TBD",
-            streams: ["TBD", "Fubo"]
+            tv: "NBC",
+            streams: ["Fubo", "Peacock"]
         },
 
         {
-            homeTeam: "TBD",
-            awayTeam: "TBD",
+            homeTeam: "Bills",
+            awayTeam: "Ravens",
             date: "Sunday January 19",
             time: "6:30 PM",
-            tv: "TBD",
-            streams: ["TBD", "Fubo"]
+            tv: "CBS",
+            streams: ["Fubo", "Paramount+"]
         }
     ],
 
